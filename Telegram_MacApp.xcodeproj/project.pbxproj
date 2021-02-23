@@ -15,6 +15,26 @@
 		C400FA4025E4518E00E89E21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA1525E4518D00E89E21 /* ContentView.swift */; };
 		C400FA4125E4518E00E89E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C400FA1625E4518E00E89E21 /* Assets.xcassets */; };
 		C400FA4225E4518E00E89E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C400FA1625E4518E00E89E21 /* Assets.xcassets */; };
+		C400FA5D25E451D200E89E21 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA5C25E451D200E89E21 /* Home.swift */; };
+		C400FA6325E4522700E89E21 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA6225E4522700E89E21 /* TabButton.swift */; };
+		C400FA6925E4541F00E89E21 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA6825E4541F00E89E21 /* HomeViewModel.swift */; };
+		C400FA6A25E4541F00E89E21 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA6825E4541F00E89E21 /* HomeViewModel.swift */; };
+		C400FA6F25E454B400E89E21 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA5C25E451D200E89E21 /* Home.swift */; };
+		C400FA7425E454BC00E89E21 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA6225E4522700E89E21 /* TabButton.swift */; };
+		C400FA7A25E4574D00E89E21 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA7925E4574D00E89E21 /* BlurView.swift */; };
+		C400FA7B25E4574D00E89E21 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA7925E4574D00E89E21 /* BlurView.swift */; };
+		C400FA8125E45A5E00E89E21 /* AllChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8025E45A5E00E89E21 /* AllChatsView.swift */; };
+		C400FA8225E45A5E00E89E21 /* AllChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8025E45A5E00E89E21 /* AllChatsView.swift */; };
+		C400FA8825E45AF600E89E21 /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8725E45AF600E89E21 /* RecentMessage.swift */; };
+		C400FA8925E45AF600E89E21 /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8725E45AF600E89E21 /* RecentMessage.swift */; };
+		C400FA8F25E45C2F00E89E21 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8E25E45C2F00E89E21 /* Message.swift */; };
+		C400FA9025E45C2F00E89E21 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA8E25E45C2F00E89E21 /* Message.swift */; };
+		C400FA9625E45F1000E89E21 /* RecentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA9525E45F1000E89E21 /* RecentCardView.swift */; };
+		C400FA9725E45F1000E89E21 /* RecentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FA9525E45F1000E89E21 /* RecentCardView.swift */; };
+		C400FAA125E467BF00E89E21 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FAA025E467BF00E89E21 /* DetailView.swift */; };
+		C400FAA225E467BF00E89E21 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FAA025E467BF00E89E21 /* DetailView.swift */; };
+		C400FAB025E4756500E89E21 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FAAF25E4756500E89E21 /* MessageView.swift */; };
+		C400FAB125E4756500E89E21 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400FAAF25E4756500E89E21 /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,16 @@
 		C400FA3625E4518E00E89E21 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C400FA3A25E4518E00E89E21 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C400FA3C25E4518E00E89E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C400FA5C25E451D200E89E21 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C400FA6225E4522700E89E21 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		C400FA6825E4541F00E89E21 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C400FA7925E4574D00E89E21 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		C400FA8025E45A5E00E89E21 /* AllChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChatsView.swift; sourceTree = "<group>"; };
+		C400FA8725E45AF600E89E21 /* RecentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMessage.swift; sourceTree = "<group>"; };
+		C400FA8E25E45C2F00E89E21 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C400FA9525E45F1000E89E21 /* RecentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCardView.swift; sourceTree = "<group>"; };
+		C400FAA025E467BF00E89E21 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C400FAAF25E4756500E89E21 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +128,9 @@
 		C400FA1325E4518D00E89E21 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C400FA5B25E451BF00E89E21 /* View Model */,
+				C400FA5A25E451B100E89E21 /* Model */,
+				C400FA5525E4519C00E89E21 /* View */,
 				C400FA1425E4518D00E89E21 /* Telegram_MacAppApp.swift */,
 				C400FA1525E4518D00E89E21 /* ContentView.swift */,
 				C400FA1625E4518E00E89E21 /* Assets.xcassets */,
@@ -149,6 +182,37 @@
 				C400FA3C25E4518E00E89E21 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C400FA5525E4519C00E89E21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C400FA5C25E451D200E89E21 /* Home.swift */,
+				C400FA6225E4522700E89E21 /* TabButton.swift */,
+				C400FA7925E4574D00E89E21 /* BlurView.swift */,
+				C400FA8025E45A5E00E89E21 /* AllChatsView.swift */,
+				C400FA9525E45F1000E89E21 /* RecentCardView.swift */,
+				C400FAA025E467BF00E89E21 /* DetailView.swift */,
+				C400FAAF25E4756500E89E21 /* MessageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C400FA5A25E451B100E89E21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C400FA8725E45AF600E89E21 /* RecentMessage.swift */,
+				C400FA8E25E45C2F00E89E21 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C400FA5B25E451BF00E89E21 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C400FA6825E4541F00E89E21 /* HomeViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +372,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C400FAB025E4756500E89E21 /* MessageView.swift in Sources */,
+				C400FA8125E45A5E00E89E21 /* AllChatsView.swift in Sources */,
 				C400FA3F25E4518E00E89E21 /* ContentView.swift in Sources */,
+				C400FA6325E4522700E89E21 /* TabButton.swift in Sources */,
+				C400FA8F25E45C2F00E89E21 /* Message.swift in Sources */,
+				C400FA5D25E451D200E89E21 /* Home.swift in Sources */,
+				C400FAA125E467BF00E89E21 /* DetailView.swift in Sources */,
+				C400FA8825E45AF600E89E21 /* RecentMessage.swift in Sources */,
+				C400FA6925E4541F00E89E21 /* HomeViewModel.swift in Sources */,
+				C400FA9625E45F1000E89E21 /* RecentCardView.swift in Sources */,
 				C400FA3D25E4518E00E89E21 /* Telegram_MacAppApp.swift in Sources */,
+				C400FA7A25E4574D00E89E21 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C400FAB125E4756500E89E21 /* MessageView.swift in Sources */,
+				C400FA8225E45A5E00E89E21 /* AllChatsView.swift in Sources */,
 				C400FA4025E4518E00E89E21 /* ContentView.swift in Sources */,
+				C400FA6A25E4541F00E89E21 /* HomeViewModel.swift in Sources */,
+				C400FA9025E45C2F00E89E21 /* Message.swift in Sources */,
+				C400FA6F25E454B400E89E21 /* Home.swift in Sources */,
+				C400FAA225E467BF00E89E21 /* DetailView.swift in Sources */,
+				C400FA8925E45AF600E89E21 /* RecentMessage.swift in Sources */,
+				C400FA7425E454BC00E89E21 /* TabButton.swift in Sources */,
+				C400FA9725E45F1000E89E21 /* RecentCardView.swift in Sources */,
 				C400FA3E25E4518E00E89E21 /* Telegram_MacAppApp.swift in Sources */,
+				C400FA7B25E4574D00E89E21 /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

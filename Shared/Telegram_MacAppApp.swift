@@ -13,5 +13,14 @@ struct Telegram_MacAppApp: App {
         WindowGroup {
             ContentView()
         }
+//        Hiding Title
+        .windowStyle(HiddenTitleBarWindowStyle())
+    }
+}
+//Hidding Textfield FOcus Ring....
+extension NSTextField{
+    open override var focusRingType: NSFocusRingType{
+        get{.none}
+        set{}
     }
 }
