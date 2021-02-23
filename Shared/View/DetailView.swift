@@ -47,15 +47,15 @@ struct DetailView: View {
                             .font(.title2)
                     })
                     .buttonStyle(PlainButtonStyle())
-                    TextField("Enter Message", text: $homeData.message,onCommit:{
+                    
+                   TextField("Enter Message", text: $homeData.message,onCommit:{
                         homeData.sendMessage(user: user)
                     })
-                        .textFieldStyle(PlainTextFieldStyle())
-                    .foregroundColor(.white)
-                        .padding(.vertical,8)
-                        .padding(.horizontal)
-                        .clipShape(Circle())
-                    .background(Capsule().strokeBorder(Color.white))
+                    .textFieldStyle(PlainTextFieldStyle())
+                    .padding(.vertical,8)
+                    .padding(.horizontal)
+                    .clipShape(Capsule())
+                    .background(Capsule().strokeBorder(Color.primary.opacity(0.15)))
                     Button(action: {
                         
                     }, label: {

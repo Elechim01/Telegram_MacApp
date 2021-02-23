@@ -21,9 +21,10 @@ class HomeViewModel : ObservableObject{
     @Published var pickerTab = "Media"
 //    sed message
     func sendMessage(user : RecentMessage){
+        print("🤖",message)
         if message != ""{
-            let index = msg.firstIndex { (user) -> Bool in
-                return user.id == user.id
+            let index = msg.firstIndex { (currentuser) -> Bool in
+                return currentuser.id == user.id
             } ?? -1
             if index != -1 {
                 msg[index].allMsgs.append(Message(message: message, myMessage: true))
